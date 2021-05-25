@@ -1,0 +1,44 @@
+{
+  "id": "2569792",
+  "name": "uniapp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "21786414",
+      "name": "价格咨询",
+      "font_class": "jiagezixun",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "21786509",
+      "name": "游行",
+      "font_class": "youhangshiwei",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "21786511",
+      "name": "税务",
+      "font_class": "shuiwu",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "21786513",
+      "name": "枪支",
+      "font_class": "qiangzhixieyun",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "21786574",
+      "name": "养犬登记",
+      "font_class": "yangquandengji",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    }
+  ]
+}

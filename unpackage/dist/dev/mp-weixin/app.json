@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/homepage/homepage",
+    "pages/trip/trip",
+    "pages/money/money",
+    "pages/details/details"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "test_case",
+    "navigationBarBackgroundColor": "#20598b",
+    "backgroundColor": "#8b8b8b",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light",
+    "onReachBottomDistance": 100
+  },
+  "tabBar": {
+    "color": "#555555",
+    "selectedColor": "#ff0000",
+    "backgroundColor": "#C0C0C0",
+    "fontSize": "15px",
+    "spacing": "3px",
+    "iconWidth": "20px",
+    "height": "50px",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "id",
+        "pagePath": "pages/homepage/homepage",
+        "iconPath": "static/id.png",
+        "selectedIconPath": "static/id2.png"
+      },
+      {
+        "text": "trip",
+        "pagePath": "pages/trip/trip",
+        "iconPath": "static/trip.png",
+        "selectedIconPath": "static/trip2.png"
+      },
+      {
+        "text": "money",
+        "pagePath": "pages/money/money",
+        "iconPath": "static/money.png",
+        "selectedIconPath": "static/money2.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

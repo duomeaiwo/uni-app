@@ -1,0 +1,1 @@
+<view><view>rpx</view><view class="box">{{''+msg+''}}<view class="iconfont icon-jiagezixun"><button type="default" data-event-opts="{{[['tap',[['pulldown',['$event']]]]]}}" bindtap="__e">refresh</button></view></view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__"><view class="item">{{''+item+''}}</view></block></view>
