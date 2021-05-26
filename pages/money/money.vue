@@ -29,7 +29,7 @@
 		},
 		onReachBottom() {
 			console.log('xx')
-			this.list = [...this.list, 
+			this.list = [...this.list,
 				'apple', 'orange', 'pineapple', 'watermelon', 'banana', 'lemon'
 			]
 		},

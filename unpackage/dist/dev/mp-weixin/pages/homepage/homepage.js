@@ -135,7 +135,11 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+//
+//
+//
+//
 //
 //
 //
@@ -148,13 +152,42 @@ var _default =
 {
   data: function data() {
     return {
-      title: 'Hello World' };
+      imgSrc: [] };
 
   },
   onLoad: function onLoad() {
 
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    getData: function getData() {
+      uni.request({
+        url: 'https://api-hmugo-web.itheima.net/api/public/v1/home/swiperdata',
+        success: function success(res) {
+          console.log(res);
+        } });
+
+    },
+    setStorage: function setStorage() {
+      uni.setStorageSync('storage_key', 'hello');
+    },
+    getStorage: function getStorage() {
+      var value = uni.getStorageSync('storage_key');
+      console.log(value);
+    },
+    removeStorage: function removeStorage() {
+      uni.removeStorageSync('storage_key');
+    },
+    uploadPic: function uploadPic() {var _this = this;
+      uni.chooseImage({
+        count: 6,
+        sizeType: ["original", "compressed"],
+        success: function success(res) {
+          console.log(res);
+          _this.imgSrc = res.tempFilePaths;
+        } });
+
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 /* 17 */
